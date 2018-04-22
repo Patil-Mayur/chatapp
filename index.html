@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Chat App</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div id="main">	
+	<div class="row">
+		<div class="col-sm-12 teal" >
+			<h3 style="color:#ffffff;">Chat App</h3>
+		</div>
+	</div>
+	<div class="row" id="container">
+		<div class="col-sm-4">
+			<div class="row searchbox padding-5">
+				<input type="text" class="form-control" placeholder="Search"></input>
+			</div>
+			<div class="row sideBar">
+				<div class="width-100"></div>
+			</div>
+		</div>
+		<div class="col-sm-8">
+			<div class="row heading">
+				<div class="col-sm-8 col-xs-7 heading-name">
+					<h4 class="heading-name-meta"></h4>
+          </div>
+			</div>
+			<div class="row conversation">
+				<div class="width-100"></div>
+			</div>
+			<div class="row">
+				<div class="col-sm-11">
+					<textarea class="form-control" rows="1" id="comment" placeholder="message..."></textarea>
+				</div>
+				<div class="col-sm-1 send-reply">
+					<i class="fa fa-send fa-2x" aria-hidden="true"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js" defer></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous" defer></script>
+<script src="app.js" defer></script>
+</body>
+</html>
